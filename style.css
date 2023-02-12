@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-height: 100vh;
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* background-image: url(./images/pattern-background-desktop.svg); */
+	background-color: hsl(225, 100%, 94%);
+}
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 15px;
+	max-width: 450px;
+}
+.text {
+	text-align: center;
+	padding: 2rem 3rem;
+}
+.details h1 {
+	margin-bottom: 1rem;
+	color: hsl(223, 47%, 23%);
+}
+.note {
+	color: hsl(224, 23%, 55%);
+	line-height: 25px;
+	margin-bottom: 1.5rem;
+}
+.box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: hsl(225, 100%, 98%);
+	padding: 1rem 1rem;
+	border-radius: 15px;
+	margin-bottom: 1.5rem;
+}
+.left {
+	display: flex;
+}
+.music img {
+	margin-right: 0.7rem;
+}
+.pricing {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.pricing h3 {
+	color: hsl(223, 47%, 23%);
+}
+.pricing p {
+	color: hsl(224, 23%, 55%);
+}
+.hero img {
+	border-radius: 15px 15px 0 0;
+}
+.right a {
+	color: hsl(245, 75%, 52%);
+}
+button {
+	width: 100%;
+	background-color: blue;
+	color: white;
+	padding: 1rem 0;
+	border: 0;
+	border-radius: 10px;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+button:hover {
+	background-color: hsl(224, 23%, 55%);
+}
+.link a {
+	text-decoration: none;
+	color: hsl(224, 23%, 55%);
+}
