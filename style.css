@@ -84,3 +84,21 @@ button:hover {
 	text-decoration: none;
 	color: hsl(224, 23%, 55%);
 }
+@media (max-width: 450px) {
+	.card {
+		width: 90%;
+	}
+	.hero img {
+		width: 100%;
+	}
+	.note {
+		width: 100%;
+	}
+	.box {
+		margin: 0 0 1rem 0;
+		width: 100%;
+	}
+	.text {
+		padding: 2rem 1rem;
+	}
+}
